@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0ffff;
+  color: #111;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #53769d;
+  padding: 12px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 5px rgba(53, 130, 153, 0.8);
+  z-index: 999;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: white;
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+}
+
+header nav {
+  display: flex;
+  gap: 24px; 
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+  color: bisque;
+}
+
+footer {
+  background-color: #53769d;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  margin-top: 50px;
+}
+
+.buku-container {
+  margin-top: 140px;
+}
+
+.buku-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+}
+
+.buku-card {
+  width: 280px;
+  background-color: #eaeaea;
+  border-radius: 16px;
+  padding: 24px;
+  border: 2px solid #2165a4;
+  text-align: center;
+  box-shadow: 0 4px 9px rgb(43, 43, 43);
+}
+
+.judul-buku {
+  font-size: 19px;
+  font-weight: bold;
+  color: #111;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buku-image {
+  width: 128px;
+  height: 192px;
+  border-radius: 8px;
+  margin: 16px auto;
+  box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.heart-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.heart-icon.suka {
+  fill: #ff0026;
+  color: #ff0026;
+}
+
+.heart-icon.tidak {
+  fill: white;
+  color: black;
+}
+
+.info-btn {
+  background-color: #293f4f;
+  color: #fff;
+  padding: 8px 19px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid #444;
+}
+
+.info-btn:hover {
+  background-color: #848484;
+}
+
+.popup {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3000;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.popup-content {
+  background-color: #fff;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 320px;
+  padding: 24px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.popup-content h2 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.popup-content img {
+  width: 128px;
+  height: 192px;
+  object-fit: cover;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.popup-content p {
+  font-size: 14px;
+  margin: 6px 0;
+  text-align: left;
+}
+
+.popup-content p strong {
+  display: inline-block;
+  width: 100px;
+}
+
+.popup-content button:last-child {
+  margin-top: 19px;
+  background-color: #53769d;
+  color: #fff;
+  padding: 6px 19px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
