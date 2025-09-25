@@ -1,7 +1,9 @@
 # Books Collection
 
 Books Collection adalah aplikasi web berbasis **React** dengan styling menggunakan **Tailwind CSS**.  
-Aplikasi ini menampilkan daftar koleksi buku beserta informasi singkat seperti judul, cover, tahun terbit, dan tombol detail.  
+Aplikasi ini menampilkan daftar koleksi buku beserta informasi singkat seperti judul, cover, tahun terbit, dan tombol detail.
+
+**LIVE DEMO :** https://books-collection-mu.vercel.app/
 
 ---
 
